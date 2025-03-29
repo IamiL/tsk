@@ -8,13 +8,13 @@ export const metadata = {
 };
 
 const inter = localFont({src: './fonts/Inter.ttf', variable: '--font-inter'});
-const montcerrat = localFont({src: './fonts/Montserrat.ttf', variable: '--font-motcerrat'});
+const montserrat = localFont({src: './fonts/Montserrat.ttf', variable: '--font-montserrat'});
 
 export default function RootLayout({children}) {
     return (
         <html lang="ru">
         <body
-            className={`${montcerrat.variable} ${inter.variable}`}>
+            className={`${montserrat.variable} ${inter.variable}`}>
         {children}
         </body>
         </html>

@@ -6,15 +6,15 @@ export default function Page() {
     return (
         <>
             <section id='contactsp-sec1'>
-                <h1 className='heading2'>Контакты</h1>
+                <h1 className='fs3 m-b'>Контакты</h1>
                 <div className='main-grid' id='contactsp-sec1-container'>
-                    <h2 className='heading3' id='contactsp-sec1-container-heading'>Расположение</h2>
+                    <h2 className='fs5 i-m' id='contactsp-sec1-container-heading'>Расположение</h2>
                     <div id='contactsp-map'><Image src={map} alt={'Map'} id='contactsp-map-img'/></div>
                 </div>
             </section>
             <section className='main-grid' id='contactsp-sec2'>
-                <h2 className='heading3 organization-map-heading'>Карта предприятия</h2>
-                <ul className='text3 contactsp-specs'>
+                <h2 className='fs5 i-m organization-map-heading'>Карта предприятия</h2>
+                <ul className='fs8 i-m contactsp-specs'>
                     <li className='contactsp-spec border-bottom'>
                         <p>
                             Полное наименование организации
@@ -146,8 +146,8 @@ export default function Page() {
                 </ul>
             </section>
             <section className='main-grid' id='contactsp-sec3'>
-                <h2 className='heading3 organization-map-heading'>Платежные реквизиты</h2>
-                <ul className='text3 contactsp-specs'>
+                <h2 className='fs5 i-m organization-map-heading'>Платежные реквизиты</h2>
+                <ul className='fs8 i-m contactsp-specs'>
                     <li className='contactsp-spec border-bottom'>
                         <p>Полное наименование банка</p>
                         <p>ПАО «Челябинвестбанк»</p>

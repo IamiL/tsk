@@ -1,0 +1,8 @@
+.slick-slider {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.slick-slide {
+    width: auto; /* или задайте конкретный размер */
+}

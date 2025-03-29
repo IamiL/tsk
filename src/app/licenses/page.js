@@ -11,9 +11,9 @@ import Cart7 from "@/components/cart/7/cart7";
 export default function Page() {
     return (
         <section id='licensesp-sec'>
-            <h1 className='heading2'>Лицензии и допуски</h1>
+            <h1 className='fs3 m-b'>Лицензии и допуски</h1>
             <div id='licensesp-container1'>
-                <button className='licensesp-btn text5'>скачать лицензии и допуски</button>
+                <button className='btn fs5 i-m up'>скачать лицензии и допуски</button>
             </div>
             <div>
                 <div>

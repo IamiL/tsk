@@ -16,21 +16,22 @@ import cheltelecabel from "@/images/reviews/Cheltelecabel.png"
 import Image from "next/image";
 import Cart3 from "@/components/cart/3/cart3";
 import Cart5 from "@/components/cart/5/cart5";
+import Carousel from "@/components/carousel/carousel";
 
 export default function Home() {
     return (
         <Wrapper location={"/"}>
             <main>
                 <section className="main-grid" id="mainp-sec1">
-                    <h1 className="heading1" id="mainp-sec1-h">системный<br/>
+                    <h1 className="fs1 m-b up" id="mainp-sec1-h">системный<br/>
                         <span id="h1-2padding">интегратор</span><br/><span id="h1-3padding">крутойойо</span></h1>
                     <Logo1 id={"mainp-sec1-img"}/>
                 </section>
                 <section id="mainp-sec2">
-                    <h2 className="heading2 mainp-heading2">о компании</h2>
+                    <h2 className="fs3 m-b up">о компании</h2>
                     <div id='mainp-sec2-text-container'>
-                        <div id='divider1'/>
-                        <p className='text2' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий российский<br/>
+                        <div className='divid' id='divid1'/>
+                        <p className='fs4 i-m' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий российский<br/>
                             интегратор систем безопасности и охраны объектов </p>
                     </div>
                     <div id='mainp-sec2-carts'>
@@ -43,9 +44,9 @@ export default function Home() {
                     </div>
                 </section>
                 <section id='mainp-sec3'>
-                    <h2 className="heading2 mainp-heading2">услуги</h2>
+                    <h2 className="fs3 m-b up">услуги</h2>
                     <div className='main-grid' id='mainp-sec3-services'>
-                        <p id='mainp-sec3-block1' className='text4'>Мы предлагаем комплексные решения для охраны
+                        <p id='mainp-sec3-block1' className='fs7 i-m'>Мы предлагаем комплексные решения для охраны
                             объектов и контроля
                             доступа. Проектируем,
                             устанавливаем и обслуживаем системы безопасности для вашего бизнеса. Вы получите надежную
@@ -71,11 +72,11 @@ export default function Home() {
                     </div>
                 </section>
                 <section id='mainp-sec4'>
-                    <h2 className="heading2 mainp-heading2">проекты</h2>
+                    <h2 className="fs3 m-b up">проекты</h2>
                     <Map/>
                 </section>
                 <section id='mainp-sec5'>
-                    <h2 className="heading2 mainp-heading2">лицензии и допуски</h2>
+                    <h2 className="fs3 m-b up">лицензии и допуски</h2>
                     <div id='mainp-sec5-licenses'>
                         <Cart2 heading={"Лицензия на монтаж и обслуживание систем пожарной безопасности"}>
                             <Image src={license1} alt={"license"} className='mainp-sec5-licenses-img'/>
@@ -90,34 +91,57 @@ export default function Home() {
                             <Image src={tolerancechelrop2} alt={"license"} className='mainp-sec5-licenses-img'/>
                         </Cart2>
                     </div>
-                    <button className='mainp-btn text5'>↓ скачать лицензии и допуски</button>
+                    <button className='btn fs5 i-m up'>↓ скачать лицензии и допуски</button>
                 </section>
                 <section id='mainp-sec6'>
-                    <h2 className="heading2 mainp-heading2">отзывы</h2>
+                    <h2 id='mainp-sec6-heading' className="main-grid fs3 m-b up">отзывы</h2>
                     <div id='mainp-sec6-reviews'>
-                        <Cart3
-                            heading={"Благодарственное письмо от ООО \"Уральско-Сибирская электромонтажная компания\""}
-                            type={1}>
-                            <Image src={uralsibirelectrocompany}
-                                   alt={"Благодарственное письмо от ООО \"Уральско-Сибирская электромонтажная компания\""}
-                                   className='mainp-sec6-reviews-img'/>
-                        </Cart3>
-                        <Cart3
-                            heading={"Благодарственное письмо от Челябинского концертного объединения"}
-                            type={1}>
-                            <Image src={chelyabconcertcompany}
-                                   alt={"Благодарственное письмо от Челябинского концертного объединения"}
-                                   className='mainp-sec6-reviews-img'/>
-                        </Cart3>
-                        <Cart3
-                            heading={"Благодарственное письмо от ООО \"Челтелекабель\""}
-                            type={1}>
-                            <Image src={cheltelecabel}
-                                   alt={"Благодарственное письмо от ООО \"Челтелекабель\""}
-                                   className='mainp-sec6-reviews-img'/>
-                        </Cart3>
+                        <Carousel>
+                            <Cart3
+                                heading={"Благодарственное письмо от ООО \"Уральско-Сибирская электромонтажная компания\""}
+                                type={1}>
+                                <Image src={uralsibirelectrocompany}
+                                       alt={"Благодарственное письмо от ООО \"Уральско-Сибирская электромонтажная компания\""}
+                                       className='mainp-sec6-reviews-img'/>
+                            </Cart3>
+                            <Cart3
+                                heading={"Благодарственное письмо от Челябинского концертного объединения"}
+                                type={1}>
+                                <Image src={chelyabconcertcompany}
+                                       alt={"Благодарственное письмо от Челябинского концертного объединения"}
+                                       className='mainp-sec6-reviews-img'/>
+                            </Cart3>
+                            <Cart3
+                                heading={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                type={1}>
+                                <Image src={cheltelecabel}
+                                       alt={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                       className='mainp-sec6-reviews-img'/>
+                            </Cart3>
+                            <Cart3
+                                heading={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                type={1}>
+                                <Image src={cheltelecabel}
+                                       alt={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                       className='mainp-sec6-reviews-img'/>
+                            </Cart3>
+                            <Cart3
+                                heading={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                type={1}>
+                                <Image src={cheltelecabel}
+                                       alt={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                       className='mainp-sec6-reviews-img'/>
+                            </Cart3>
+                            <Cart3
+                                heading={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                type={1}>
+                                <Image src={cheltelecabel}
+                                       alt={"Благодарственное письмо от ООО \"Челтелекабель\""}
+                                       className='mainp-sec6-reviews-img'/>
+                            </Cart3>
+                        </Carousel>
                     </div>
-                    <button className='mainp-btn text5'>↓ скачать портфолио</button>
+                    <button className='btn fs5 i-m up'>↓ скачать портфолио</button>
                 </section>
             </main>
         </Wrapper>

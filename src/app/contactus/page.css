@@ -7,9 +7,7 @@
     margin-top: calc(var(--1w) * 0.38);
 }
 
-#divider5 {
-    position: absolute;
-    width: 100%;
+#divid5 {
     height: calc(var(--1w) * 0.6);
     border-top: 1px solid rgba(247, 247, 247, 0.75);
     border-right: 1px solid rgba(247, 247, 247, 0.75);
@@ -23,20 +21,70 @@
     width: var(--100w);
 }
 
-.send-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-transform: uppercase;
-    border: 1px solid rgba(247, 247, 247, 0.75);
-    margin-top: calc(var(--1w) * 0.45);
-    height: calc(var(--1w) * 0.55);
-    border-radius: calc(var(--1w) * 0.016);
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+.input {
+    grid-column-start: 2;
 }
 
-.send-btn:hover {
-    background-color: #ff0000;
-    border-color: #ff0000;
+.input-end1 {
+    grid-column-end: -4;
+}
+
+.input-end2 {
+    grid-column-end: -5;
+}
+
+label {
+    display: inline-grid;
+    grid-template-columns: calc(var(--1w) * 0.3) 1fr;
+    align-items: center;
+    cursor: pointer;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                     supported by Chrome, Edge, Opera and Firefox */
+}
+
+.cb {
+    display: none;
+}
+
+.cb + label > span {
+    /*display: inline-block;*/
+    width: calc(var(--1w) * 0.2);
+    height: 100%;
+    /*margin: 0 5px -4px 0;*/
+    display: flex;
+    align-items: center;
+}
+
+.cb + label > span:before, .cb + label > span:after {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 0.5rem;
+    height: 0.5rem;
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    margin-top: calc(var(--1w) * 0.05);
+}
+
+.cb + label > span:after {
+    z-index: 0;
+    border: none;
+}
+
+.cb:checked + label > span:before {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+    background: #D8282F;
 }

@@ -3,10 +3,6 @@
     height: calc(var(--1w) * 4.792);
 }
 
-.mainp-heading2 {
-    text-transform: uppercase;
-}
-
 #h1-2padding {
     padding-left: 1.5em;
 }
@@ -19,6 +15,7 @@
     grid-column-start: 1;
     grid-column-end: -4;
     margin-top: calc(var(--1w) * 1.07);
+    font-style: italic;
 }
 
 #mainp-sec1-img {
@@ -44,9 +41,7 @@
     margin-top: calc(var(--1w) * 0.38);
 }
 
-#divider1 {
-    position: absolute;
-    width: 100%;
+#divid1 {
     height: calc(var(--1w) * 0.6);
     border-top: 1px solid rgba(247, 247, 247, 0.75);
     border-right: 1px solid rgba(247, 247, 247, 0.75);
@@ -168,27 +163,13 @@
     object-fit: cover;
 }
 
-.mainp-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    text-transform: uppercase;
-    border: 1px solid rgba(247, 247, 247, 0.75);
-    margin-top: calc(var(--1w) * 0.45);
-    height: calc(var(--1w) * 0.55);
-    border-radius: calc(var(--1w) * 0.016);
-    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-}
-
-.mainp-btn:hover {
-    background-color: #ff0000;
-    border-color: #ff0000;
-}
-
 #mainp-sec6 {
-    width: var(--100w);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: calc(var(--1w) * 1.4);
+    overflow: hidden;
 }
 
 #mainp-sec6-reviews {
@@ -197,6 +178,7 @@
     justify-content: center;
     gap: calc(var(--1w) * 0.3582);
     margin-top: calc(var(--1w) * 0.75);
+    position: relative;
 }
 
 .mainp-sec6-reviews-img {

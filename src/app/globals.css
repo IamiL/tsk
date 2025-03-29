@@ -4,7 +4,8 @@ html {
     /*--100w: 171.52vh;*/
     --100w: min(181vh, 98vw);
     --1w: calc(var(--100w) / 12);
-    font-size: calc(var(--1w) * 0.35820895656);
+    /*font-size: calc(var(--1w) * 0.35820895656);*/
+    font-size: calc(var(--1w) * 0.37);
 }
 
 * {
@@ -49,80 +50,27 @@ main {
     width: var(--100w);
 }
 
-.heading1 {
-    font-size: 2.3125rem;
-    letter-spacing: 0.01rem;
-    line-height: 2.38rem;
-    font-weight: 1000;
-    font-family: var(--font-motcerrat);
-    text-transform: uppercase;
-    font-style: italic;
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.45);
+    height: calc(var(--1w) * 0.55);
+    border-radius: calc(var(--1w) * 0.016);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 }
 
-.heading2 {
-    font-size: 1.56rem;
-    font-family: var(--font-motcerrat);
-    font-weight: 900;
+.btn:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
 }
 
-.heading3 {
-    font-size: 0.75rem;
-    font-family: var(--font-inter);
-    font-weight: 500;
-}
-
-.heading4 {
-    font-family: var(--font-inter);
-    font-weight: 700;
-    font-size: 0.75rem;
-}
-
-.text1 {
-    font-size: 0.439rem;
-    font-family: var(--font-inter);
-    font-weight: 700;
-}
-
-.text2 {
-    font-size: 1rem;
-    font-family: var(--font-inter);
-    font-weight: 500;
-}
-
-.text3 {
-    font-size: 0.4375rem;
-    font-family: var(--font-inter);
-    font-weight: 500;
-}
-
-.text4 {
-    font-size: 0.46875rem;
-    font-family: var(--font-inter);
-    font-weight: 500;
-}
-
-.text5 {
-    font-size: 0.75rem;
-    font-family: var(--font-inter);
-    font-weight: 500;
-}
-
-.text5 {
-    font-size: 0.5625rem;
-    font-family: var(--font-inter);
-    font-weight: 500;
-}
-
-.text6 {
-    font-size: 0.75rem;
-    font-family: var(--font-inter);
-    font-weight: 700;
-}
-
-.text7 {
-    font-size: 0.4375rem;
-    font-family: var(--font-inter);
-    font-weight: 700;
+.divid {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
 }
 
 .border-top {
@@ -139,4 +87,56 @@ main {
 
 .border-left {
     border-left: 1px solid rgba(247, 247, 247, 0.75);
+
+}
+
+.fs1 {
+    font-size: 2.3125rem
+}
+
+.fs2 {
+    font-size: 2rem
+}
+
+.fs3 {
+    font-size: 1.5rem
+}
+
+.fs4 {
+    font-size: 1rem
+}
+
+.fs5 {
+    font-size: 0.75rem
+}
+
+.fs6 {
+    font-size: 0.5625rem
+}
+
+.fs7 {
+    font-size: 0.46875rem
+}
+
+.fs8 {
+    font-size: 0.4375rem
+}
+
+.i-m {
+    font-family: var(--font-inter);
+    font-weight: 500
+}
+
+.i-b {
+    font-family: var(--font-inter);
+    font-weight: 700
+}
+
+.m-b {
+    font-family: var(--font-montserrat);
+    font-weight: 900
+}
+
+.up {
+    text-transform: uppercase
 }

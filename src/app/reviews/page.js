@@ -6,8 +6,8 @@ import "./page.css"
 export default function Page() {
     return (
         <section id='reviewsp-sec'>
-            <h1 className='heading2'>Отзывы</h1>
-            <p className='heading3'>Доверие клиентов — лучшая оценка нашей работы. Узнайте, как наши комплексные решения
+            <h1 className='fs3 m-b'>Отзывы</h1>
+            <p className='fs5 i-m'>Доверие клиентов — лучшая оценка нашей работы. Узнайте, как наши комплексные решения
                 помогли обеспечить
                 безопасность и надежность на объектах различных компаний и предприятий.</p>
             <div id='reviewsp-reviews'>

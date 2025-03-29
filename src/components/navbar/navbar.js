@@ -4,27 +4,27 @@ import Link from "next/link";
 export default function Navbar({location}) {
     return <nav>
         <div id='navbar-block'>
-            <Link href={"/about"} className="text1"
+            <Link href={"/about"} className="fs8 i-b"
                   style={location === "/about" ? {color: "red", whiteSpace: "nowrap"} : {whiteSpace: "nowrap"}}>
                 о компании
             </Link>
-            <Link href={"/services"} className="text1" style={location === "/services" ? {color: "red"} : {}}>
+            <Link href={"/services"} className="fs8 i-b" style={location === "/services" ? {color: "red"} : {}}>
                 услуги
             </Link>
-            <Link href={"/cases"} className="text1" style={location === "/cases" ? {color: "red"} : {}}>
+            <Link href={"/cases"} className="fs8 i-b" style={location === "/cases" ? {color: "red"} : {}}>
                 проекты
             </Link>
-            <Link href={"/licenses"} className="text1" style={location === "/licenses" ? {color: "red"} : {}}>
+            <Link href={"/licenses"} className="fs8 i-b" style={location === "/licenses" ? {color: "red"} : {}}>
                 лицензии
             </Link>
-            <Link href={"/reviews"} className="text1" style={location === "/reviews" ? {color: "red"} : {}}>
+            <Link href={"/reviews"} className="fs8 i-b" style={location === "/reviews" ? {color: "red"} : {}}>
                 отзывы
             </Link>
-            <Link href={"/contacts"} className="text1" style={location === "/contacts" ? {color: "red"} : {}}>
+            <Link href={"/contacts"} className="fs8 i-b" style={location === "/contacts" ? {color: "red"} : {}}>
                 контакты
             </Link>
         </div>
-        <Link href={"/contactus"} className="text1" style={location === "/contactus" ? {color: "red"} : {}}>
+        <Link href={"/contactus"} className="fs8 i-b" style={location === "/contactus" ? {color: "red"} : {}}>
             связаться
         </Link>
     </nav>

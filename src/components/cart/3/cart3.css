@@ -30,9 +30,7 @@
     justify-content: center;
 }
 
-.cart3-divider {
-    position: absolute;
-    width: 100%;
+.cart3-divid {
     height: calc(var(--1w) * 0.6);
     border-top: 1px solid rgba(247, 247, 247, 0.75);
     border-right: 1px solid rgba(247, 247, 247, 0.75);
