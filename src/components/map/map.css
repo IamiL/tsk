@@ -1,0 +1,11 @@
+#map-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#map {
+    height: calc(var(--1w) * 5.5634329);
+    width: calc(var(--1w) * 10.0074627);
+    object-fit: cover;
+}

@@ -1,0 +1,8 @@
+.cart7 {
+    border: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+.cart7-heading {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}

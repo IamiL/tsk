@@ -1,0 +1,15 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    /*gap: calc(var(--1w) * 0.457052);*/
+    align-items: center;
+    grid-column-start: 5;
+    grid-column-end: -1;
+    margin-top: calc(var(--1w) * 0.06);
+    margin-right: calc(var(--1w) * 0.1);
+}
+
+#navbar-block {
+    display: flex;
+    gap: calc(var(--1w) * 0.466);
+}

@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#header {
+    height: calc(var(--1w) * 0.5932835843);
+    width: var(--100w);
+    margin-top: calc(var(--1w) * 0.17910447828);
+}
+
+#logo {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+#logo-primary-text {
+    font-size: calc(var(--1w) * 2.1676);
+
+}
+
+#logo-secondary-text {
+    font-size: calc(var(--1w) / 1.2);
+}

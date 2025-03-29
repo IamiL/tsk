@@ -1,0 +1,29 @@
+#servicesp-sec {
+    width: var(--100w);
+}
+
+#servicesp-container1 {
+    position: relative;
+    margin-top: calc(var(--1w) * 0.38);
+}
+
+#divider3 {
+    position: absolute;
+    width: 100%;
+    height: calc(var(--1w) * 0.6);
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    border-right: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+#servicesp-container1-text {
+    padding-top: calc(var(--1w) * 0.35);
+}
+
+#servicesp-services {
+    grid-auto-rows: auto;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+.servicesp-service {
+    grid-column: span 6;
+}

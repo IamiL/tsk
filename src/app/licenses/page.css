@@ -1,0 +1,36 @@
+#licensesp-sec {
+    width: var(--100w);
+}
+
+.licensesp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.45);
+    height: calc(var(--1w) * 0.55);
+    border-radius: calc(var(--1w) * 0.016);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.licensesp-btn:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.licensesp-img1 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+}
+
+.licensesp-img2 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+}
+
+.licensesp-img {
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,204 @@
+#mainp-sec1 {
+    margin-top: calc(var(--1w) * 1.05);
+    height: calc(var(--1w) * 4.792);
+}
+
+.mainp-heading2 {
+    text-transform: uppercase;
+}
+
+#h1-2padding {
+    padding-left: 1.5em;
+}
+
+#h1-3padding {
+    padding-left: 3em;
+}
+
+#mainp-sec1-h {
+    grid-column-start: 1;
+    grid-column-end: -4;
+    margin-top: calc(var(--1w) * 1.07);
+}
+
+#mainp-sec1-img {
+    grid-column-start: -4;
+    grid-column-end: -1;
+    object-fit: contain;
+    height: calc(var(--1w) * 3.1);
+    width: 100%;
+}
+
+#mainp-sec2 {
+    width: var(--100w);
+    /*height: 100vh;*/
+    height: calc(var(--1w) * 6.26);
+    margin-top: calc(var(--1w) * 0.35);
+    /*margin-top: 6.746vw;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+#mainp-sec2-text-container {
+    position: relative;
+    margin-top: calc(var(--1w) * 0.38);
+}
+
+#divider1 {
+    position: absolute;
+    width: 100%;
+    height: calc(var(--1w) * 0.6);
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    border-right: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec2-text {
+    padding-top: calc(var(--1w) * 0.35);
+}
+
+#mainp-sec2-carts {
+    display: flex;
+    justify-content: space-between;
+    height: calc(var(--1w) * 2.95522389162);
+    margin-top: calc(var(--1w) * 0.37);
+}
+
+.mainp-sec2-carts-cart {
+    width: calc(var(--1w) * 3.76119404389);
+}
+
+#mainp-sec3 {
+    width: var(--100w);
+    margin-top: calc(var(--1w) * 0.88);
+}
+
+#mainp-sec3-services {
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.18);
+}
+
+#mainp-sec3-block2, #mainp-sec3-block3, #mainp-sec3-block4, #mainp-sec3-block5, #mainp-sec3-block6, #mainp-sec3-block7 {
+    display: grid;
+    grid-template-rows: calc(var(--1w) * 0.86194) calc(var(--1w) * 1.01865672);
+    margin-top: calc(var(--1w) * 0.358209);
+    padding-right: calc(var(--1w) * 0.35);
+}
+
+
+#mainp-sec3-block1 {
+    margin-top: calc(var(--1w) * 0.358209);
+    padding-right: calc(var(--1w) * 0.35);
+    display: block;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+#mainp-sec3-block2 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid 1px rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec3-block3 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    border-bottom: solid 1px rgba(247, 247, 247, 0.75);
+    padding-right: calc(var(--1w) * 0.3);
+}
+
+#mainp-sec3-block4 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom: solid 1px rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec3-block5 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border-bottom: solid 1px rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec3-block6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-bottom: solid 1px rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec3-block7 {
+    grid-column-start: 9;
+    grid-column-end: 13;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    border-bottom: solid 1px rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec4 {
+    width: var(--100w);
+    margin-top: calc(var(--1w) * 0.94);
+}
+
+#mainp-sec5 {
+    width: var(--100w);
+    margin-top: calc(var(--1w) * 1.45);
+}
+
+#mainp-sec5-licenses {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.37);
+    padding-top: calc(var(--1w) * 0.33);
+}
+
+.mainp-sec5-licenses-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.mainp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.45);
+    height: calc(var(--1w) * 0.55);
+    border-radius: calc(var(--1w) * 0.016);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.mainp-btn:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+#mainp-sec6 {
+    width: var(--100w);
+    margin-top: calc(var(--1w) * 1.4);
+}
+
+#mainp-sec6-reviews {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: calc(var(--1w) * 0.3582);
+    margin-top: calc(var(--1w) * 0.75);
+}
+
+.mainp-sec6-reviews-img {
+    height: 100%;
+    object-fit: cover;
+}

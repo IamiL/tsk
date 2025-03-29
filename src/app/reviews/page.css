@@ -1,0 +1,15 @@
+#reviewsp-sec {
+    width: var(--100w);
+}
+
+.reviewsp-img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#reviewsp-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: calc(var(--1w) * 0.3);
+}

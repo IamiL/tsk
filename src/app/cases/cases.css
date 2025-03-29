@@ -1,0 +1,38 @@
+#casesp-sec {
+    width: var(--100w);
+}
+
+#casesp-container1 {
+    position: relative;
+    margin-top: calc(var(--1w) * 0.38);
+}
+
+#divider4 {
+    position: absolute;
+    width: 100%;
+    height: calc(var(--1w) * 0.6);
+    border-top: 1px solid rgba(247, 247, 247, 0.75);
+    border-right: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+#casesp-container1-text {
+    padding-top: calc(var(--1w) * 0.35);
+}
+
+.casesp-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-transform: uppercase;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.45);
+    height: calc(var(--1w) * 0.55);
+    border-radius: calc(var(--1w) * 0.016);
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+
+.casesp-btn:hover {
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
