@@ -5,18 +5,8 @@ import Slider from 'react-slick';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Cart6 from "@/components/cart/6/cart6";
-import CaseUral from "@/app/cases/CaseUral.png"
 import "./mobileMap.css"
-import Image from "next/image";
-import map from "@/components/map/map.png";
-import PointCart from "@/components/point/cart/cart";
-
-const cards = [
-    {title: 'Card 1', content: 'This is the content of card 1.'},
-    {title: 'Card 2', content: 'This is the content of card 2.'},
-    {title: 'Card 3', content: 'This is the content of card 3.'},
-    {title: 'Card 4', content: 'This is the content of card 4.'},
-];
+import PointCart2 from "@/components/point/cart/cart2";
 
 export default function MobileMap() {
     const [activeCardIndex, setActiveCardIndex] = useState(0);
@@ -36,56 +26,58 @@ export default function MobileMap() {
 
     return (
         <>
-            <div>
-                <Image id='map' src={map} alt="Map" width={400} height={200}/>
-                <PointCart id={'point1'}/>
-                <PointCart id={'point2'}/>
-                <PointCart id={'point3'}/>
-                <PointCart id={'point4'}/>
-                <PointCart id={'point5'}/>
-                <PointCart id={'point6'}/>
-                <PointCart id={'point7'}/>
-                <PointCart id={'point8'}/>
+            <div id='mobile-map'>
+                <img id='mobile-map-img' src={'map.png'} alt="Map" width={400} height={200}/>
+                <PointCart2 id={'point1'}/>
+                <PointCart2 id={'point2'}/>
+                <PointCart2 id={'point3'}/>
+                <PointCart2 id={'point4'}/>
+                <PointCart2 id={'point5'}/>
+                <PointCart2 id={'point6'}/>
+                <PointCart2 id={'point7'}/>
+                <PointCart2 id={'point8'}/>
             </div>
 
             <Slider {...settings}>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
-                    <img src={CaseUral} alt={'project-ural'}/>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
                 <Cart6 heading={'Энергосистема «Урал» ОАО «Фортум»'}
                        value={'Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для объектов компании, включающие прокладку кабеленесущих конструкций, монтаж кабелей различного назначения и установку оборудования для обеспечения надежной и бесперебойной работы инфраструктуры'}
                        link={'/ural'}>
+                    <img src={'CaseUral.png'} alt={'project-ural'}/>
                 </Cart6>
             </Slider>
             <div>

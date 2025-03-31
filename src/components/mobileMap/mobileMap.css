@@ -1,0 +1,9 @@
+#mobile-map {
+    height: 23.8262875svh;
+    display: flex;
+    justify-content: center;
+}
+
+#mobile-map-img {
+    height: 23.8262875svh;
+}

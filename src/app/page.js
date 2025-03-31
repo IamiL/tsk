@@ -32,7 +32,7 @@ export default function Home() {
                     <Logo1 id={"mainp-sec1-img"}/>
                 </section>
                 <section id="mainp-sec2">
-                    <h2 className="fs3 m-b up">о компании</h2>
+                    <h2 className="fs3 m-b up" id='mainp-sec2-heading'>о компании</h2>
                     <div id='mainp-sec2-text-container'>
                         <div className='divid' id='divid1'/>
                         <p className='fs4 i-m' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий российский<br/>
@@ -48,7 +48,7 @@ export default function Home() {
                     </div>
                 </section>
                 <section id='mainp-sec3'>
-                    <h2 className="fs3 m-b up">услуги</h2>
+                    <h2 className="fs3 m-b up" id='mainp-sec3-heading'>услуги</h2>
                     <div className='main-grid' id='mainp-sec3-services'>
                         <p id='mainp-sec3-block1' className='fs7 i-m'>Мы предлагаем комплексные решения для охраны
                             объектов и контроля
@@ -76,7 +76,7 @@ export default function Home() {
                     </div>
                 </section>
                 <section id='mainp-sec4'>
-                    <h2 className="fs3 m-b up">проекты</h2>
+                    <h2 className="fs3 m-b up" id='mainp-sec4-heading'>проекты</h2>
                     <Map/>
                 </section>
                 <section id='mainp-sec5'>
