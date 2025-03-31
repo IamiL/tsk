@@ -169,6 +169,40 @@ main {
     html {
         /*--100h: min(181vh, 98vw);*/
         --1h: 5.985915svh;
-        --1g: 2.347417svh
+        --1g: 2.347417svh;
+        font-size: 1.8779342723svh;
     }
+
+    .fs1, .fs2, .fs3, .fs4, .fs5, .fs6, .fs7, .fs8, .fs9, .fs10 {
+        font-size: unset;
+    }
+
+    .mfs1 {
+        font-size: 2.6875rem
+    }
+
+    .mfs2 {
+        font-size: 2.5rem
+    }
+
+    .mfs3 {
+        font-size: 2rem
+    }
+
+    .mfs4 {
+        font-size: 1.5rem
+    }
+
+    .mfs5 {
+        font-size: 1.25rem
+    }
+
+    .mfs6 {
+        font-size: 1rem
+    }
+
+    .mfs7 {
+        font-size: 0.875rem
+    }
+
 }

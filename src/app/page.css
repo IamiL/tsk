@@ -218,7 +218,7 @@
         display: flex;
         flex-direction: column-reverse;
         margin-top: unset;
-        width: var(--100w);
+        width: 100%;
     }
 
     #mainp-sec1-btn-container {
@@ -245,6 +245,7 @@
     }
 
     #mainp-sec2 {
+        width: 100%;
         height: unset;
         padding-right: 10px;
         padding-left: 10px;
@@ -275,6 +276,7 @@
     }
 
     #mainp-sec3 {
+        width: 100%;
         padding-right: 10px;
         padding-left: 10px;
         margin-top: 10.680749svh;
@@ -294,12 +296,15 @@
     #mainp-sec3-block2, #mainp-sec3-block3, #mainp-sec3-block4, #mainp-sec3-block5, #mainp-sec3-block6, #mainp-sec3-block7 {
         margin-top: var(--1g);
         height: 22.652579svh;
+        grid-template-rows: 8.333332svh 10.3286384977svh 1fr;
+        /*padding-right: calc(var(--1w) * 0.35);*/
     }
 
     #mainp-sec4 {
         padding-right: 10px;
         padding-left: 10px;
         margin-top: 10.680749svh;
+        width: 100%;
     }
 
     #mainp-sec4-heading {
@@ -315,6 +320,7 @@
     #mainp-sec5 {
         padding-right: 10px;
         padding-left: 10px;
+        width: 100%;
     }
 
     #mainp-sec6 {

@@ -24,18 +24,19 @@ export default function Home() {
             <main>
                 <section className="main-grid" id="mainp-sec1">
                     <div id='mainp-sec1-btn-container'>
-                        <button id='mainp-sec1-btn'>связаться</button>
+                        <button className='mfs5 i-m' id='mainp-sec1-btn'>связаться</button>
                     </div>
-                    <h1 className="fs1 m-b up" id="mainp-sec1-h">системный<br className='br1'/>
+                    <h1 className="fs1 mfs1 m-b up" id="mainp-sec1-h">системный<br className='br1'/>
                         <span id="h1-2padding">интегратор</span><br className='br1'/><span
                             id="h1-3padding">крутойойо</span></h1>
                     <Logo1 id={"mainp-sec1-img"}/>
                 </section>
                 <section id="mainp-sec2">
-                    <h2 className="fs3 m-b up" id='mainp-sec2-heading'>о компании</h2>
+                    <h2 className="fs3 mfs3 m-b up" id='mainp-sec2-heading'>о компании</h2>
                     <div id='mainp-sec2-text-container'>
                         <div className='divid' id='divid1'/>
-                        <p className='fs4 i-m' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий российский<br/>
+                        <p className='fs4 mfs5 i-m' id='mainp-sec2-text'>“ТелекомСервисКомплект” — ведущий
+                            российский<br/>
                             интегратор систем безопасности и охраны объектов </p>
                     </div>
                     <div id='mainp-sec2-carts'>
@@ -48,39 +49,45 @@ export default function Home() {
                     </div>
                 </section>
                 <section id='mainp-sec3'>
-                    <h2 className="fs3 m-b up" id='mainp-sec3-heading'>услуги</h2>
+                    <h2 className="fs3 mfs3 m-b up" id='mainp-sec3-heading'>услуги</h2>
                     <div className='main-grid' id='mainp-sec3-services'>
-                        <p id='mainp-sec3-block1' className='fs7 i-m'>Мы предлагаем комплексные решения для охраны
+                        <p id='mainp-sec3-block1' className='fs7 mfs6 i-m'>Мы предлагаем комплексные решения для охраны
                             объектов и контроля
                             доступа. Проектируем,
                             устанавливаем и обслуживаем системы безопасности для вашего бизнеса. Вы получите надежную
                             защиту, которая обеспечит сохранность имущества и жизни людей.</p>
                         <Cart5 id={'mainp-sec3-block2'}
                                heading={'КИТСОЗ'}
-                               value={'Проектируем и внедряем комплекс инженерно-технических средств охраны для обеспечения безопасности объектов и персонала.'}/>
+                               value={'Проектируем и внедряем комплекс инженерно-технических средств охраны для обеспечения безопасности объектов и персонала.'}
+                               link={'/'}/>
                         <Cart5 id={'mainp-sec3-block3'}
                                heading={'Видеонаблюдение'}
-                               value={'Устанавливаем системы видеонаблюдения для контроля производственных процессов и предотвращения несанкционированного доступа.'}/>
+                               value={'Устанавливаем системы видеонаблюдения для контроля производственных процессов и предотвращения несанкционированного доступа.'}
+                               link={'/'}/>
                         <Cart5 id={'mainp-sec3-block4'}
                                heading={'Охранно-пожарная сигнализация'}
-                               value={'Проектируем системы охранно-пожарной сигнализации для своевременного обнаружения угроз и автоматического оповещения.'}/>
+                               value={'Проектируем системы охранно-пожарной сигнализации для своевременного обнаружения угроз и автоматического оповещения.'}
+                               link={'/'}/>
                         <Cart5 id={'mainp-sec3-block5'}
                                heading={'СКУД'}
-                               value={'Внедряем системы контроля и управления доступом для обеспечения безопасности и контроля рабочих процессов на объектах.'}/>
+                               value={'Внедряем системы контроля и управления доступом для обеспечения безопасности и контроля рабочих процессов на объектах.'}
+                               link={'/'}/>
                         <Cart5 id={'mainp-sec3-block6'}
                                heading={'Охрана периметра'}
-                               value={'Предлагаем системы охраны периметра, которые обеспечивают защиту объекта в любых условиях, круглосуточно.'}/>
+                               value={'Предлагаем системы охраны периметра, которые обеспечивают защиту объекта в любых условиях, круглосуточно.'}
+                               link={'/'}/>
                         <Cart5 id={'mainp-sec3-block7'}
                                heading={'Структурированные кабельные сети'}
-                               value={'Проектируем и устанавливаем СКС, обеспечивая надежную передачу данных и стабильную работу ИТ-инфраструктуры на долгие годы.'}/>
+                               value={'Проектируем и устанавливаем СКС, обеспечивая надежную передачу данных и стабильную работу ИТ-инфраструктуры на долгие годы.'}
+                               link={'/'}/>
                     </div>
                 </section>
                 <section id='mainp-sec4'>
-                    <h2 className="fs3 m-b up" id='mainp-sec4-heading'>проекты</h2>
+                    <h2 className="fs3 mfs3 m-b up" id='mainp-sec4-heading'>проекты</h2>
                     <Map/>
                 </section>
                 <section id='mainp-sec5'>
-                    <h2 className="fs3 m-b up">лицензии и допуски</h2>
+                    <h2 className="fs3 mfs3 m-b up">лицензии и допуски</h2>
                     <div id='mainp-sec5-licenses'>
                         <Cart2 heading={"Лицензия на монтаж и обслуживание систем пожарной безопасности"}>
                             <Image src={license1} alt={"license"} className='mainp-sec5-licenses-img'/>
@@ -95,10 +102,10 @@ export default function Home() {
                             <Image src={tolerancechelrop2} alt={"license"} className='mainp-sec5-licenses-img'/>
                         </Cart2>
                     </div>
-                    <button className='btn fs5 i-m up' id='mainp-btn1'>↓ скачать лицензии и допуски</button>
+                    <button className='btn fs5 mfs6 i-m up' id='mainp-btn1'>↓ скачать лицензии и допуски</button>
                 </section>
                 <section id='mainp-sec6'>
-                    <h2 id='mainp-sec6-heading' className="main-grid fs3 m-b up">отзывы</h2>
+                    <h2 id='mainp-sec6-heading' className="main-grid fs3 mfs3 m-b up">отзывы</h2>
                     <div id='mainp-sec6-reviews'>
                         <Carousel>
                             <Cart3
@@ -145,7 +152,7 @@ export default function Home() {
                             </Cart3>
                         </Carousel>
                     </div>
-                    <button className='btn fs5 i-m up' id='mainp-btn2'>↓ скачать портфолио</button>
+                    <button className='btn fs5 mfs6 i-m up' id='mainp-btn2'>↓ скачать портфолио</button>
                 </section>
             </main>
         </Wrapper>

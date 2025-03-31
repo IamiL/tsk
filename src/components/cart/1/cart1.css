@@ -34,3 +34,18 @@
 
 .cart1t2-value {
 }
+
+@media only screen and (max-width: 767px) {
+    .cart1t1-heading {
+        width: 14rem;
+        height: unset;
+    }
+
+    .cart1t1 {
+        padding-left: unset;
+    }
+
+    .cart1t1-value {
+        border-bottom: 1px solid black;
+    }
+}
