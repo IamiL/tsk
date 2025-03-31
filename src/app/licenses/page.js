@@ -12,36 +12,34 @@ export default function Page() {
     return (
         <section id='licensesp-sec'>
             <h1 className='fs3 m-b'>Лицензии и допуски</h1>
-            <div id='licensesp-container1'>
-                <button className='btn fs5 i-m up'>скачать лицензии и допуски</button>
+            <div id='licensesp-container1' className='border-top'>
+                <button className='btn fs5 i-m up' id='licensesp-btn'>скачать лицензии и допуски</button>
             </div>
-            <div>
-                <div>
-                    <Cart7 heading={'Лицензия на монтаж и обслуживание систем пожарной безопасности'}>
-                        <div className="licensesp-img1">
-                            <Image src={lic11} alt={"license"} className='licensesp-img'/>
-                        </div>
-                        <div className="licensesp-img2">
-                            <Image src={lic12} alt={"license"} className='licensesp-img'/>
-                        </div>
-                    </Cart7>
-                    <Cart7 heading={'Допуски СРО'}>
-                        <div className="licensesp-img1">
-                            <Image src={lic21} alt={"license"} className='licensesp-img'/>
-                        </div>
-                        <div className="licensesp-img2">
-                            <Image src={lic22} alt={"license"} className='licensesp-img'/>
-                        </div>
-                    </Cart7>
-                    <Cart7 heading={'Допуски ЧелРОП'}>
-                        <div className="licensesp-img1">
-                            <Image src={lic31} alt={"license"} className='licensesp-img'/>
-                        </div>
-                        <div className="licensesp-img2">
-                            <Image src={lic32} alt={"license"} className='licensesp-img'/>
-                        </div>
-                    </Cart7>
-                </div>
+            <div id='licensesp-container2'>
+                <Cart7 heading={'Лицензия на монтаж и обслуживание систем пожарной безопасности'}>
+                    <div className="licensesp-img1">
+                        <Image src={lic11} alt={"license"} className='licensesp-img'/>
+                    </div>
+                    <div className="licensesp-img2">
+                        <Image src={lic12} alt={"license"} className='licensesp-img'/>
+                    </div>
+                </Cart7>
+                <Cart7 heading={'Допуски СРО'}>
+                    <div className="licensesp-img1">
+                        <Image src={lic21} alt={"license"} className='licensesp-img'/>
+                    </div>
+                    <div className="licensesp-img2">
+                        <Image src={lic22} alt={"license"} className='licensesp-img'/>
+                    </div>
+                </Cart7>
+                <Cart7 heading={'Допуски ЧелРОП'}>
+                    <div className="licensesp-img1">
+                        <Image src={lic31} alt={"license"} className='licensesp-img'/>
+                    </div>
+                    <div className="licensesp-img2">
+                        <Image src={lic32} alt={"license"} className='licensesp-img'/>
+                    </div>
+                </Cart7>
             </div>
         </section>
     );

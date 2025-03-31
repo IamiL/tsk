@@ -12,16 +12,24 @@
 
 .cart1t1-heading {
     width: calc(var(--1w) * 2.7);
+    height: calc(var(--1w) * 0.663);
 }
 
 .cart1t1-value {
 }
 
 .cart1t2 {
-    border: 1px solid rgba(247, 247, 247, 0.75);;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(247, 247, 247, 0.75);
+    padding-left: calc(var(--1w) * 0.1791);
+    padding-top: calc(var(--1w) * 0.1535);
+    padding-bottom: calc(var(--1w) * 0.155);
 }
 
 .cart1t2-heading {
+    height: calc(var(--1w) * 0.663);
 }
 
 .cart1t2-value {

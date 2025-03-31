@@ -35,7 +35,9 @@ export default function Page() {
             </section>
             <section id='aboutp-sec2'>
                 <p className='fs5 i-m'>
-                    {`Мы стремимся к качеству в каждой детали и на каждом этапе работы. Наша команда постоянно совершенствует свои навыки и использует передовые технологии, чтобы обеспечить надежность и долговечность решений для безопасности.`}
+                    Мы стремимся к качеству в каждой детали и на каждом этапе работы.<br/>Наша команда постоянно
+                    совершенствует свои навыки и использует передовые технологии, чтобы обеспечить надежность и
+                    долговечность решений для безопасности.
                 </p>
                 <div className='main-grid' id='aboutp-sec2-container1'>
                     <h2 className='fs5 i-b' id='aboutp-sec2-container1-heading'>Что мы предлагаем</h2>
@@ -59,20 +61,20 @@ export default function Page() {
                 <p className='fs5 i-m'>
                     {`За годы работы мы реализовали сотни проектов с крупными промышленными и государственными организациями. Наши системы защищают ключевые объекты, способствуя их бесперебойной работе`}
                 </p>
-                <h2 className='fs5 i-b'>
+                <h2 className='fs5 i-b' id='aboutp-sec3-heading'>
                     Наши клиенты и партнеры:
                 </h2>
                 <div id='aboutp-sec3-clients'>
                     <div className='aboutp-sec3-client'>
                         <Image src={fsb} alt={"fsb"}/>
-                        <p>федеральная служба безопасности рф</p>
+                        <p className='fs8 i-m'>федеральная служба безопасности рф</p>
                     </div>
                     <div className='aboutp-sec3-client'>
                         <Image src={axis} alt={"axis"}/>
                     </div>
                     <div className='aboutp-sec3-client'>
                         <Image src={fsb} alt={"fsb"}/>
-                        <p>федеральная служба безопасности рф</p>
+                        <p className='fs8 i-m'>федеральная служба безопасности рф</p>
                     </div>
                     <div className='aboutp-sec3-client'>
                         <Image src={axis} alt={"axis"}/>
@@ -82,14 +84,14 @@ export default function Page() {
                     </div>
                     <div className='aboutp-sec3-client'>
                         <Image src={fsb} alt={"fsb"}/>
-                        <p>федеральная служба безопасности рф</p>
+                        <p className='fs8 i-m'>федеральная служба безопасности рф</p>
                     </div>
                     <div className='aboutp-sec3-client'>
                         <Image src={axis} alt={"axis"}/>
                     </div>
                     <div className='aboutp-sec3-client'>
                         <Image src={fsb} alt={"fsb"}/>
-                        <p>федеральная служба безопасности рф</p>
+                        <p className='fs8 i-m'>федеральная служба безопасности рф</p>
                     </div>
                 </div>
             </section>

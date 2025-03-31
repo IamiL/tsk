@@ -4,24 +4,28 @@
 
 #servicesp-container1 {
     position: relative;
-    margin-top: calc(var(--1w) * 0.38);
+    margin-top: calc(var(--1w) * 0.33);
 }
 
 #divid3 {
     height: calc(var(--1w) * 0.6);
-    border-top: 1px solid rgba(247, 247, 247, 0.75);
-    border-right: 1px solid rgba(247, 247, 247, 0.75);
 }
 
 #servicesp-container1-text {
-    padding-top: calc(var(--1w) * 0.35);
+    padding-top: calc(var(--1w) * 0.37);
 }
 
 #servicesp-services {
     grid-auto-rows: auto;
     border: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.68);
 }
 
 .servicesp-service {
     grid-column: span 6;
+    padding-top: calc(var(--1w) * 0.18);
+    padding-left: calc(var(--1w) * 0.18);
+    padding-right: calc(var(--1w) * 0.5);
+    display: grid;
+    grid-template-rows: calc(var(--1w) * 0.82) calc(var(--1w) * 1.29) calc(var(--1w) * 0.4);
 }

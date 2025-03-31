@@ -1,6 +1,21 @@
 #mainp-sec1 {
-    margin-top: calc(var(--1w) * 1.05);
+    margin-top: calc(var(--1w) * 0.35);
     height: calc(var(--1w) * 4.792);
+}
+
+#mainp-sec1-btn-container {
+    display: none;
+}
+
+#mainp-sec1-btn {
+    border: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+#mainp-sec1-h {
+    grid-column-start: 1;
+    grid-column-end: -4;
+    margin-top: calc(var(--1w) * 1.07);
+    font-style: italic;
 }
 
 #h1-2padding {
@@ -9,13 +24,6 @@
 
 #h1-3padding {
     padding-left: 3em;
-}
-
-#mainp-sec1-h {
-    grid-column-start: 1;
-    grid-column-end: -4;
-    margin-top: calc(var(--1w) * 1.07);
-    font-style: italic;
 }
 
 #mainp-sec1-img {
@@ -43,8 +51,6 @@
 
 #divid1 {
     height: calc(var(--1w) * 0.6);
-    border-top: 1px solid rgba(247, 247, 247, 0.75);
-    border-right: 1px solid rgba(247, 247, 247, 0.75);
 }
 
 #mainp-sec2-text {
@@ -163,6 +169,10 @@
     object-fit: cover;
 }
 
+#mainp-btn1 {
+    margin-top: calc(var(--1w) * 0.45);
+}
+
 #mainp-sec6 {
     width: 100%;
     display: flex;
@@ -185,4 +195,79 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+}
+
+#mainp-btn2 {
+    margin-top: calc(var(--1w) * 0.45);
+}
+
+@media only screen and (max-width: 767px) {
+    #h1-2padding {
+        padding-left: unset;
+    }
+
+    #h1-3padding {
+        padding-left: unset;
+    }
+
+    #mainp-sec1 {
+        height: unset;
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: unset;
+        width: var(--100w);
+    }
+
+    #mainp-sec1-btn-container {
+        display: flex;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mainp-sec1-h {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .br1 {
+        display: none;
+    }
+
+    #mainp-sec2 {
+        height: unset;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mainp-sec2-carts {
+        flex-direction: column;
+        height: unset;
+        gap: var(--1g)
+    }
+
+    .mainp-sec2-carts-cart {
+        width: unset;
+    }
+
+    #mainp-sec3 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mainp-sec4 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mainp-sec5 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+    #mainp-sec6 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
 }

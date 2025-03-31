@@ -1,4 +1,4 @@
-nav {
+#desktop-nav {
     display: flex;
     justify-content: space-between;
     /*gap: calc(var(--1w) * 0.457052);*/
@@ -12,4 +12,28 @@ nav {
 #navbar-block {
     display: flex;
     gap: calc(var(--1w) * 0.466);
+}
+
+@media only screen and (max-width: 767px) {
+    #desktop-nav {
+        display: none;
+    }
+
+    nav {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        position: absolute;
+        width: 100%;
+    }
+
+    #navbar-block {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
 }

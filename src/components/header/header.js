@@ -1,12 +1,13 @@
 import "./header.css";
 import Link from "next/link";
 import Navbar from "@/components/navbar/navbar";
+import MobileNavbar from "@/components/mobileNavbar/mobileNavbar";
 
 export default function Header({location}) {
     return <header>
         <div id="header" className='main-grid'>
             <Link href={"/"} id="logo">
-                <svg viewBox="0 0 268 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <svg id='logo-img' viewBox="0 0 268 53" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <rect width="268" height="53" fill="url(#pattern0_914_1998)"/>
                     <defs>
                         <pattern id="pattern0_914_1998" patternContentUnits="objectBoundingBox" width="1" height="1">
@@ -21,6 +22,7 @@ export default function Header({location}) {
 
             </Link>
             <Navbar location={location}/>
+            <MobileNavbar/>
         </div>
     </header>
 }

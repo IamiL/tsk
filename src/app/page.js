@@ -23,8 +23,12 @@ export default function Home() {
         <Wrapper location={"/"}>
             <main>
                 <section className="main-grid" id="mainp-sec1">
-                    <h1 className="fs1 m-b up" id="mainp-sec1-h">системный<br/>
-                        <span id="h1-2padding">интегратор</span><br/><span id="h1-3padding">крутойойо</span></h1>
+                    <div id='mainp-sec1-btn-container'>
+                        <button id='mainp-sec1-btn'>связаться</button>
+                    </div>
+                    <h1 className="fs1 m-b up" id="mainp-sec1-h">системный<br className='br1'/>
+                        <span id="h1-2padding">интегратор</span><br className='br1'/><span
+                            id="h1-3padding">крутойойо</span></h1>
                     <Logo1 id={"mainp-sec1-img"}/>
                 </section>
                 <section id="mainp-sec2">
@@ -91,7 +95,7 @@ export default function Home() {
                             <Image src={tolerancechelrop2} alt={"license"} className='mainp-sec5-licenses-img'/>
                         </Cart2>
                     </div>
-                    <button className='btn fs5 i-m up'>↓ скачать лицензии и допуски</button>
+                    <button className='btn fs5 i-m up' id='mainp-btn1'>↓ скачать лицензии и допуски</button>
                 </section>
                 <section id='mainp-sec6'>
                     <h2 id='mainp-sec6-heading' className="main-grid fs3 m-b up">отзывы</h2>
@@ -141,7 +145,7 @@ export default function Home() {
                             </Cart3>
                         </Carousel>
                     </div>
-                    <button className='btn fs5 i-m up'>↓ скачать портфолио</button>
+                    <button className='btn fs5 i-m up' id='mainp-btn2'>↓ скачать портфолио</button>
                 </section>
             </main>
         </Wrapper>

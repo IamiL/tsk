@@ -4,21 +4,33 @@
 
 #contactusp-sec1-container {
     position: relative;
-    margin-top: calc(var(--1w) * 0.38);
+    margin-top: calc(var(--1w) * 0.03);
 }
 
 #divid5 {
     height: calc(var(--1w) * 0.6);
-    border-top: 1px solid rgba(247, 247, 247, 0.75);
-    border-right: 1px solid rgba(247, 247, 247, 0.75);
 }
 
 #contactusp-sec1-container-text {
-    padding-top: calc(var(--1w) * 0.35);
+    padding-top: calc(var(--1w) * 0.25);
 }
 
 #contactusp-sec2 {
     width: var(--100w);
+    margin-top: calc(var(--1w) * 0.5);
+}
+
+.contactusp-header1 {
+    margin-top: calc(var(--1w) * 0.1);
+}
+
+.contactusp-block1 {
+    margin-top: calc(var(--1w) * 0.3);
+}
+
+.cb-list {
+    margin-top: calc(var(--1w) * 0.15);
+    row-gap: calc(var(--1w) * 0.05);
 }
 
 .input {
@@ -87,4 +99,16 @@ label {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
     background: #D8282F;
+}
+
+.input-text {
+    background: none;
+    border-right: none;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    color: #FFFFFF;
+}
+
+.input-text:focus {
+    outline: none
 }

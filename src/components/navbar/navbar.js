@@ -2,7 +2,7 @@ import "./navbar.css"
 import Link from "next/link";
 
 export default function Navbar({location}) {
-    return <nav>
+    return <nav id='desktop-nav'>
         <div id='navbar-block'>
             <Link href={"/about"} className="fs8 i-b"
                   style={location === "/about" ? {color: "red", whiteSpace: "nowrap"} : {whiteSpace: "nowrap"}}>

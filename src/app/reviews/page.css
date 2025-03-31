@@ -2,14 +2,28 @@
     width: var(--100w);
 }
 
+#reviewsp-sec-container {
+    position: relative;
+    margin-top: calc(var(--1w) * 0.35);
+}
+
+#reviewsp-sec-container-text {
+    padding-top: calc(var(--1w) * 0.37);
+}
+
 .reviewsp-img {
     height: 100%;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
 }
 
 #reviewsp-reviews {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    row-gap: calc(var(--1w) * 0.3);
+    row-gap: calc(var(--1w) * 0.43);
+}
+
+#divid6 {
+    height: calc(var(--1w) * 0.5);
 }

@@ -8,6 +8,7 @@ header {
     height: calc(var(--1w) * 0.5932835843);
     width: var(--100w);
     margin-top: calc(var(--1w) * 0.17910447828);
+    margin-bottom: calc(var(--1w) * 0.7);
 }
 
 #logo {
@@ -17,9 +18,32 @@ header {
 
 #logo-primary-text {
     font-size: calc(var(--1w) * 2.1676);
-
 }
 
 #logo-secondary-text {
     font-size: calc(var(--1w) / 1.2);
+}
+
+@media only screen and (max-width: 767px) {
+    #header {
+        margin-top: 1.173708svh;
+        margin-bottom: var(--1g);
+        height: var(--1h);
+        padding-right: 10px;
+        padding-left: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        position: relative;
+    }
+
+    #logo {
+        height: 100%;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
+    #logo-img {
+        height: 100%;
+    }
 }

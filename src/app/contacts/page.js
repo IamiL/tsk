@@ -20,7 +20,7 @@ export default function Page() {
                             Полное наименование организации
                         </p>
                         <p>
-                            Общество с ограниченной ответственностью «тСк»
+                            Общество с ограниченной<br/> ответственностью «тСк»
                         </p>
                     </li>
                     <li className='contactsp-spec border-bottom'>

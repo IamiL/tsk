@@ -1,9 +1,26 @@
+"use client";
+
 import "./map.css"
-import map from "./map.png";
-import Image from "next/image";
+import MobileMap from "@/components/mobileMap/mobileMap";
+import {useEffect, useState} from "react";
+import DesktopMap from "@/components/desktopMap/desktopMap";
 
 export default function Map() {
-    return <div id='map-container'>
-        <Image id='map' src={map} alt="Map" width={400} height={200}/>
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return <></>
+    }
+
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+    return isMobile ? <div id='map-container'>
+        <MobileMap/>
+    </div> : <div id='map-container'>
+        <DesktopMap/>
     </div>
 }

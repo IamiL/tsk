@@ -4,13 +4,15 @@
 
 #aboutp-container1 {
     position: relative;
-    margin-top: calc(var(--1w) * 0.38);
+    margin-top: calc(var(--1w) * 0.365);
 }
 
 #divid2 {
     height: calc(var(--1w) * 0.6);
-    border-top: 1px solid rgba(247, 247, 247, 0.75);
-    border-right: 1px solid rgba(247, 247, 247, 0.75);
+}
+
+#aboutp-sec1-container1 {
+    margin-top: calc(var(--1w) * 0.45);
 }
 
 #aboutp-container1-text {
@@ -20,12 +22,15 @@
 #aboutp-sec1-text {
     grid-column-start: 1;
     grid-column-end: 8;
+    padding-right: calc(var(--1w) * 0.7);
 }
 
 #aboutp-sec1-img {
     grid-column-start: 8;
     grid-column-end: 13;
     padding-left: calc(var(--1w) * 0.2);
+    /*padding-bottom: calc(var(--1w) * 0.2);*/
+    height: calc(var(--1w) * 2.33);
 }
 
 #aboutp-img1 {
@@ -37,8 +42,8 @@
 #aboutp-sec1-carts {
     display: flex;
     justify-content: space-between;
-    height: calc(var(--1w) * 2.95522389162);
-    margin-top: calc(var(--1w) * 0.37);
+    height: calc(var(--1w) * 2.13);
+    margin-top: calc(var(--1w) * 0.69);
 }
 
 .aboutp-sec1-carts-cart {
@@ -47,10 +52,13 @@
 
 #aboutp-sec2 {
     width: var(--100w);
+    margin-top: calc(var(--1w) * 0.75);
 }
 
 #aboutp-sec2-container1 {
     border-top: 1px solid rgba(247, 247, 247, 0.75);
+    margin-top: calc(var(--1w) * 0.65);
+    padding-top: calc(var(--1w) * 0.35);
 }
 
 #aboutp-sec2-container1-heading {
@@ -62,6 +70,11 @@
     grid-column-start: 5;
     grid-column-end: 13;
     border-bottom: 1px solid rgba(247, 247, 247, 0.75);
+    padding-right: calc(var(--1w) * 0.65);
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--1w) * 0.17);
+    padding-bottom: calc(var(--1w) * 0.35);
 }
 
 .aboutp-sec2-container1-value {
@@ -75,6 +88,11 @@
 
 #aboutp-sec3 {
     width: var(--100w);
+    margin-top: calc(var(--1w) * 0.72);
+}
+
+#aboutp-sec3-heading {
+    margin-top: calc(var(--1w) * 0.34);
 }
 
 #aboutp-sec3-clients {
@@ -84,8 +102,14 @@
     /*column-gap: calc(var(--1w) * 0.2);*/
     row-gap: calc(var(--1w) * 0.2);
     /*width: 100%;*/
+    margin-top: calc(var(--1w) * 0.35);
+    color: black;
+    justify-content: space-around;
 }
 
 .aboutp-sec3-client {
     background: rgba(247, 247, 247, 0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
