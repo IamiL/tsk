@@ -31,3 +31,12 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+@media only screen and (max-width: 767px) {
+    .point-icon {
+        cursor: unset;
+        height: 3.87323943662svh;
+        width: 2.34741784038svh;
+    }
+}

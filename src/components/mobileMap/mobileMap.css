@@ -13,3 +13,11 @@
     bottom: 10px;
     color: white;
 }
+
+#mobile-map-carts .slick-list {
+    height: 47.652575svh;
+}
+
+#mobile-map-carts .slick-slide {
+    height: 47.652575svh;
+}
