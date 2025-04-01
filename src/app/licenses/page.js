@@ -7,6 +7,7 @@ import lic32 from "./license3_2.png"
 import Image from "next/image";
 import "./page.css"
 import Cart7 from "@/components/cart/7/cart7";
+import LicensesSlider from "@/components/licensesSlider/licensesSlider";
 
 export default function Page() {
     return (
@@ -41,6 +42,7 @@ export default function Page() {
                     </div>
                 </Cart7>
             </div>
+            <LicensesSlider/>
         </section>
     );
 }

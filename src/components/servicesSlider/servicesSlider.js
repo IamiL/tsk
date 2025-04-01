@@ -1,17 +1,39 @@
-import Cart4 from "@/components/cart/4/cart4";
-import "./page.css"
-import ServicesSlider from "@/components/servicesSlider/servicesSlider";
+'use client';
 
-export default function Page() {
+import React, {useEffect, useState} from "react";
+import Slider from "react-slick";
+import "./servicesSlider.css";
+import Cart4 from "@/components/cart/4/cart4";
+
+export default function ServicesSlider() {
+    const [isClient, setIsClient] = useState(false);
+
+    useEffect(() => {
+        setIsClient(true);
+    }, []);
+
+    if (!isClient) {
+        return <></>
+    }
+
+    const isMobile = window.matchMedia("(max-width: 767px)").matches;
+
+    const settings = {
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        centerMode: true,
+        centerPadding: '1px',
+        swipeToSlide: true,
+        prevArrow: <></>,
+        nextArrow: <></>
+    };
+
     return (
-        <section id='servicesp-sec'>
-            <h1 className='fs3 m-b'>Услуги</h1>
-            <div id='servicesp-container1'>
-                <div className='divid' id='divid3'/>
-                <p id='servicesp-container1-text'
-                   className='fs5 i-m'>{`Комплексные решения в области безопасности: проектирование, установка и обслуживание систем охраны, видеонаблюдения, контроля доступа и пожарной безопасности для защиты ваших объектов и персонала.`}</p>
-            </div>
-            <div className='main-grid' id='servicesp-services'>
+        isMobile && <div id='services-mobile'>
+            <Slider {...settings}>
                 <Cart4 heading={"КИТСОЗ"}
                        value={"Комплексная система, объединяющая видеонаблюдение, сигнализацию и контроль доступа для всесторонней защиты объекта. КИТСОЗ обеспечивает безопасность персонала и имущества, позволяет оперативно реагировать на угрозы и предотвращать инциденты."}
                        link={"/"}
@@ -36,8 +58,7 @@ export default function Page() {
                        value={`СКС — основа ИТ-инфраструктуры объекта, объединяющая все системы в единое информационное пространство. Обеспечивает стабильную связь и высокую скорость передачи данных, облегчая обслуживание технических систем.`}
                        link={"/"}
                        mainClassName={'servicesp-service'}/>
-            </div>
-            <ServicesSlider/>
-        </section>
+            </Slider>
+        </div>
     );
 }

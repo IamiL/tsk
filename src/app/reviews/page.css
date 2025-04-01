@@ -27,3 +27,13 @@
 #divid6 {
     height: calc(var(--1w) * 0.5);
 }
+
+
+@media only screen and (max-width: 767px) {
+    #reviewsp-reviews {
+        flex-wrap: unset;
+        justify-content: unset;
+        flex-direction: column;
+        row-gap: calc(var(--1w) * 0.43);
+    }
+}

@@ -29,3 +29,17 @@
     display: grid;
     grid-template-rows: calc(var(--1w) * 0.82) calc(var(--1w) * 1.29) calc(var(--1w) * 0.4);
 }
+
+
+@media only screen and (max-width: 767px) {
+    #servicesp-services {
+        display: none;
+    }
+
+    .servicesp-service {
+        height: 39.319243svh;
+        padding: unset;
+        grid-template-rows: 8.333332svh 22.652579svh 8.333332svh;
+        border: 1px solid rgba(247, 247, 247, 0.75);
+    }
+}

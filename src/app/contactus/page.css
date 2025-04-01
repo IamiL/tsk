@@ -69,8 +69,9 @@ label {
     width: calc(var(--1w) * 0.2);
     height: 100%;
     /*margin: 0 5px -4px 0;*/
-    display: flex;
+    /*display: flex;*/
     align-items: center;
+    /*margin-top: calc(var(--1w) * 0.05);*/
 }
 
 .cb + label > span:before, .cb + label > span:after {
@@ -84,7 +85,7 @@ label {
     height: 0.5rem;
     background: transparent;
     border: 2px solid #FFFFFF;
-    margin-top: calc(var(--1w) * 0.05);
+    margin-top: calc(var(--1w) * 0.09);
 }
 
 .cb + label > span:after {
@@ -99,11 +100,14 @@ label {
     -o-transform: rotateY(180deg);
     transform: rotateY(180deg);
     background: #D8282F;
+    border-color: #D8282F;
 }
 
 .input-text {
     background: none;
     border-right: none;
+    border-left: none;
+    border-top: none;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     color: #FFFFFF;
