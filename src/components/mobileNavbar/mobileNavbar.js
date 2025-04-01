@@ -25,7 +25,22 @@ export default function MobileNavbar({location}) {
 
             <div className="menu-container">
                 <input type="checkbox" id="menu-toggle" className="menu-toggle" value={isOpen}
-                       onChange={() => setIsOpen(!isOpen)}/>
+                       onChange={() => {
+                           setIsOpen(!isOpen)
+                           const block = document.getElementById('mainp-sec1-btn');
+                           if (block) {
+                               console.log("блок есть");
+                               if (!open) {
+                                   block.classList.add('disnone');
+                                   block.style
+                               } else {
+                                   block.classList.remove('disnone');
+                               }
+                           } else {
+                               console.log("блока нет");
+                           }
+                       }}
+                />
                 <label htmlFor="menu-toggle" className="menu-button">
                     <span className="line"></span>
                     <span className="line"></span>

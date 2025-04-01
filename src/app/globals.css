@@ -32,7 +32,7 @@ button {
 }
 
 body {
-    color: white;
+    color: #191919;
     background-image: url('/background.png');
     /*--1w: min(1.40937vh, 1.09248vw);*/
     /*--100w: min(140.93686vh, 91.53439vw);*/
@@ -167,6 +167,14 @@ main {
 
 .slick-active > button:before {
     background: #D8282F !important;
+}
+
+.disnone {
+    display: none;
+}
+
+.disblock {
+    display: block;
 }
 
 @media only screen and (max-width: 767px) {
