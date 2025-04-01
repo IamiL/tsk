@@ -30,14 +30,14 @@ export default function MobileMap() {
         <>
             <div id='mobile-map'>
                 <img id='mobile-map-img' src={'map.png'} alt="Map" width={400} height={200}/>
-                <PointCart2 id={'point1'}/>
-                <PointCart2 id={'point2'}/>
-                <PointCart2 id={'point3'}/>
-                <PointCart2 id={'point4'}/>
-                <PointCart2 id={'point5'}/>
-                <PointCart2 id={'point6'}/>
-                <PointCart2 id={'point7'}/>
-                <PointCart2 id={'point8'}/>
+                <PointCart2 classname={activeCardIndex === 1 ? 'zoom-effect' : ''} id={'mpoint1'}/>
+                <PointCart2 classname={activeCardIndex === 2 ? 'zoom-effect' : ''} id={'mpoint2'}/>
+                <PointCart2 classname={activeCardIndex === 3 ? 'zoom-effect' : ''} id={'mpoint3'}/>
+                <PointCart2 classname={activeCardIndex === 4 ? 'zoom-effect' : ''} id={'mpoint4'}/>
+                <PointCart2 classname={activeCardIndex === 5 ? 'zoom-effect' : ''} id={'mpoint5'}/>
+                <PointCart2 classname={activeCardIndex === 6 ? 'zoom-effect' : ''} id={'mpoint6'}/>
+                <PointCart2 classname={activeCardIndex === 7 ? 'zoom-effect' : ''} id={'mpoint7'}/>
+                <PointCart2 classname={activeCardIndex === 8 ? 'zoom-effect' : ''} id={'mpoint8'}/>
             </div>
 
             <div id='mobile-map-carts'>

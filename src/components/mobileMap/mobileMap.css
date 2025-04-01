@@ -31,3 +31,51 @@
 #mobile-map-carts {
     margin-top: 9.5070405svh;
 }
+
+#mpoint1 {
+    top: 6.6svh;
+    left: 3.5svh;
+}
+
+#mpoint2 {
+    top: 14.8svh;
+    left: 1.3svh;
+}
+
+#mpoint3 {
+    top: 11svh;
+    left: 7.1svh;
+}
+
+#mpoint4 {
+    top: 15.3svh;
+    left: 8svh;
+}
+
+#mpoint5 {
+    top: 15.3svh;
+    left: 14.5svh;
+}
+
+#mpoint6 {
+    top: 18.6svh;
+    left: 19.7svh;
+}
+
+#mpoint7 {
+    top: 4.7svh;
+    left: 24.7svh;
+}
+
+#mpoint8 {
+    top: 3svh;
+    left: 38.5svh;
+}
+
+.zoom-effect {
+    transition: transform 0.2s;
+}
+
+.zoom-effect {
+    transform: scale(2) translateY(-20%);
+}
