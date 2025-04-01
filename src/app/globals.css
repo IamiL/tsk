@@ -32,7 +32,8 @@ button {
 }
 
 body {
-    color: #191919;
+    background-color: #191919;
+    color: white;
     background-image: url('/background.png');
     /*--1w: min(1.40937vh, 1.09248vw);*/
     /*--100w: min(140.93686vh, 91.53439vw);*/
