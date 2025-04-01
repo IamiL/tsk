@@ -15,7 +15,10 @@
 .point-icon {
     cursor: pointer;
     height: calc(var(--1w) * 0.929104);
+    transition: transform 0.2s;
+    transform: scale(1) translateY(0);
 }
+
 
 .point-info {
     display: flex;
