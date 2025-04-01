@@ -12,6 +12,7 @@
     padding-right: 10px;
     padding-left: 10px;
     height: 41.66666svh;
+    z-index: 2;
 }
 
 #navbar-block {

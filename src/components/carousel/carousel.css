@@ -20,4 +20,9 @@
         margin-top: var(--1g);
         height: var(--1h);
     }
+
+    #mainp-sec6-reviews .slick-slide {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

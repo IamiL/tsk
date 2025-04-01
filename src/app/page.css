@@ -297,6 +297,7 @@
         margin-top: var(--1g);
         height: 22.652579svh;
         grid-template-rows: 8.333332svh 10.3286384977svh 1fr;
+        border: solid 1px rgba(247, 247, 247, 0.75);
         /*padding-right: calc(var(--1w) * 0.35);*/
     }
 
