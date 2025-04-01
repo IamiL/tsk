@@ -32,6 +32,8 @@
 
 #mobile-map-carts .slick-slide {
     height: 47.652575svh;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #mobile-map-carts {
