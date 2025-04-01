@@ -17,6 +17,7 @@ import Image from "next/image";
 import Cart3 from "@/components/cart/3/cart3";
 import Cart5 from "@/components/cart/5/cart5";
 import Carousel from "@/components/carousel/carousel";
+import LicensesSlider from "@/components/licensesSlider/licensesSlider";
 
 export default function Home() {
     return (
@@ -87,7 +88,7 @@ export default function Home() {
                     <Map/>
                 </section>
                 <section id='mainp-sec5'>
-                    <h2 className="fs3 mfs3 m-b up">лицензии и допуски</h2>
+                    <h2 className="fs3 mfs3 m-b up" id='mainp-sec5-heading'>лицензии и допуски</h2>
                     <div id='mainp-sec5-licenses'>
                         <Cart2 heading={"Лицензия на монтаж и обслуживание систем пожарной безопасности"}>
                             <Image src={license1} alt={"license"} className='mainp-sec5-licenses-img'/>
@@ -102,6 +103,7 @@ export default function Home() {
                             <Image src={tolerancechelrop2} alt={"license"} className='mainp-sec5-licenses-img'/>
                         </Cart2>
                     </div>
+                    <LicensesSlider/>
                     <button className='btn fs5 mfs6 i-m up' id='mainp-btn1'>↓ скачать лицензии и допуски</button>
                 </section>
                 <section id='mainp-sec6'>

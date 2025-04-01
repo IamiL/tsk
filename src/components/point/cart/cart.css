@@ -9,10 +9,12 @@
     -moz-user-select: none; /* Old versions of Firefox */
     -ms-user-select: none; /* Internet Explorer/Edge */
     user-select: none;
+    height: calc(var(--1w) * 0.929104);
 }
 
 .point-icon {
     cursor: pointer;
+    height: calc(var(--1w) * 0.929104);
 }
 
 .point-info {
@@ -30,6 +32,15 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.point-info-img-container {
+    width: 100%;
+}
+
+.point-info-img {
+    width: 100%;
+    object-fit: contain;
 }
 
 

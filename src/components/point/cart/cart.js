@@ -16,8 +16,8 @@ export default function PointCart({id}) {
                 <h3 className='point-info-heading fs9 i-m'>КИТСОЗ</h3>
                 <div className='point-info-close fs10 i-m'>крест</div>
             </div>
-            <div className='point-info-img'>
-                <Image src={CaseUral} alt={'caseUral'}/>
+            <div className='point-info-img-container'>
+                <Image src={CaseUral} alt={'caseUral'} className='point-info-img'/>
             </div>
             <div className='point-info-info fs10 i-r'>
                 Комплексные строительно-монтажные и пусконаладочные работы по установке системы безопасности для

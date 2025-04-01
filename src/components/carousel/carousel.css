@@ -6,3 +6,18 @@
 .slick-slide {
     width: auto; /* или задайте конкретный размер */
 }
+
+@media only screen and (max-width: 767px) {
+    #mainp-sec6-reviews .slick-list {
+        height: 55.985907svh;
+    }
+
+    #mainp-sec6-reviews .slick-dots {
+        display: flex !important;
+        justify-content: center;
+        align-items: start;
+        position: unset;
+        margin-top: var(--1g);
+        height: var(--1h);
+    }
+}

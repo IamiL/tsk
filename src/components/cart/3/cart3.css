@@ -42,3 +42,19 @@
 #reviewsp-reviews {
     margin-top: calc(var(--1w) * 0.7);
 }
+
+
+@media only screen and (max-width: 767px) {
+    .cart3t1 {
+        height: 55.985907svh;
+        padding: unset;
+    }
+
+    .cart3t1-container-text {
+        height: 14.319247svh;
+    }
+
+    .cart3t1-children {
+        height: 41.66666svh;
+    }
+}

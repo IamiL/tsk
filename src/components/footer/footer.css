@@ -33,5 +33,34 @@ address {
     #footer {
         padding-right: 10px;
         padding-left: 10px;
+        display: block;
+        width: 100%;
+    }
+
+    footer {
+        margin-top: 14.8708895svh;
+    }
+
+    .footer-address-container {
+        display: block;
+        line-height: 1.5rem;
+    }
+
+    .footer-h4 {
+        display: inline;
+    }
+
+    .footer-address-container > p {
+        display: inline;
+    }
+
+    address {
+        width: 60%;
+        height: 14.319247svh;
+    }
+
+    #footer > a {
+        margin-top: 5.3403745svh;
+        display: block;
     }
 }
