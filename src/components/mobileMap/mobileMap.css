@@ -1,15 +1,16 @@
 #mobile-map {
-    height: 23.8262875svh;
+    /*height: 23.8262875svh;*/
     display: flex;
     justify-content: center;
-    height: 23.8262875svh;
-    width: 43.4479588234svh;
+    /*height: 23.8262875svh;*/
+    width: 90vw;
+    height: 49.3548387098vw;
     position: relative;
 }
 
 #mobile-map-img {
-    height: 23.8262875svh;
-    width: 43.4479588234svh;
+    width: 90vw;
+    height: 49.3548387098vw;
 }
 
 #mobile-map-carts {
